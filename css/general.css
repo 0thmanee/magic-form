@@ -1,0 +1,44 @@
+:root {
+  --main-color: #f1d3b3;
+  --bcg-color1: #8b7e74;
+  --bcg-color2: #c7bca1;
+  --p-color: #222222;
+  --main-transition: 0.7s;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  min-height: 100vh;
+  color: var(--p-color);
+  background-color: var(--bcg-color1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  list-style: none;
+}
+input {
+  border: none;
+  transition: all 0.4s;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
